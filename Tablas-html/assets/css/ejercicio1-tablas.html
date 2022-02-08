@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="ejercicio1-tablas.css" type="text/css"/>
+        <title>Tablas</title>
+        <!--colspan y rowspan-->
+    </head>
+    <body>
+        <h1>Ejercicio de Tablas</h1>
+
+        <table> 
+            <thead>
+                <!-- tr crea una fila en la tabla-->
+                <tr>
+                    <!--th nos permite ver algo texto etc. Es cabecera de tabla -->
+                    <th> Producto  </th>
+                    <th colspan="2"> Precio individual </th>
+                    
+                    <th>Cantidad</th>
+                    <th>Precio Total</th>
+                </tr>
+                <!--tbody y tfoot-->
+            </thead>
+                <tbody>
+                    <tr>
+                        <td>Hola Mundo</td>
+                        <td class="fuente">Gratis</td>
+                        <td></td>
+                        <td>5</td>
+                        <td>Gratis</td>
+                    </tr>
+                    <tr>
+                        <td>Perrito Feliz</td>
+                        <td class="naranja">$19.99</td>
+                        <td>
+                        </td>
+                        <td class="naranja">2</td>
+                        <td>$39.98</td>
+                    </tr>
+                    <tr>
+                        <td>Perrito Feliz muy Feliz</td>
+                        <td>$29.99</td>
+                        <td></td>
+                        <td>3</td>
+                        <td>$89.97</td>
+                    </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td class="negro"></td>
+                            <td class="verde">Total $49.99</td>
+                            <td></td>
+                            <td class="verde">10</td>
+                            <td class="verde">129.95</td>
+                        </tr>
+                    </tfoot>
+                </tbody>
+        </table>
+    </body>
+</html>

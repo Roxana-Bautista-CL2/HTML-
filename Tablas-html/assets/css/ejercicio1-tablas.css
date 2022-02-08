@@ -1,0 +1,20 @@
+body{
+    background-color: cyan;
+}
+table, tr, th, td {
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    text-align: center;
+}
+.naranja {
+    background-color: orangered;
+}
+.negro {
+    background-color: black;
+}
+.verde {
+    background-color: chartreuse;
+}
